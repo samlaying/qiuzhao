@@ -1,0 +1,6 @@
+# Obsidian
+.obsidian/
+.DS_Store
+
+# macOS
+.DS_Store
