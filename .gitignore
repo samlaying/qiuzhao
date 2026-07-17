@@ -2,5 +2,8 @@
 .obsidian/
 .DS_Store
 
+# Editor
+.vscode/
+
 # macOS
 .DS_Store
