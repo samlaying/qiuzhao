@@ -16,7 +16,7 @@ An Obsidian vault serving as a personal interview preparation knowledge base for
 ## Obsidian Bidirectional Links (双链)
 
 Files cross-reference each other with `[[wikilink]]` syntax. Key link patterns:
-- Interview questions → applicable roles: `适用：[[100-策略PM]]、[[103-用户运营]]`
+- Interview questions → applicable roles: `适用：[[50-岗位准备/51-岗位方向/100-策略PM]]、[[50-岗位准备/51-岗位方向/103-用户运营]]`
 - Role folders → interview questions and reference materials
 - Daily practice drills → specific roles or AIGC topics
 
