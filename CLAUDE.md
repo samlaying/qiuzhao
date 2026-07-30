@@ -8,7 +8,7 @@ An Obsidian vault serving as a personal interview preparation knowledge base for
 
 ## Vault Structure & Conventions
 
-- **Root entry folders** define navigation: `00-开始这里.md` is the home page, followed by `100-基础资料/`, the role folders `110-` through `170-`, `180-公司专项与转岗/`, and `200-面试材料/`.
+- **Root entry folders** define navigation: `00-开始这里.md` is the home page, followed by `100-产品基础资料/`, the role folders `110-` through `170-`, `190-产品公司专项/`, and `300-面试材料/`.
 - **Numbered folders** define storage lifecycle: `10-` raw material, `20-` personal facts/projects, `30-` general knowledge, `40-` question answers, `50-` role preparation, `60-` interview events, `70-` training/evaluation, `80-` indexes, `90-` archive.
 - **100+ folders** follow a uniform layout: `能力要求.md` (core competency), optional `公司投递.md` (application tracker)
 - Product sense and AI product materials are copied into each role’s `03-通用知识/` folder.

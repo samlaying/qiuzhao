@@ -25,7 +25,7 @@ Use separate dimensions so one note can be found from multiple directions:
 
 Classify in this order: source/confidence, reusable output, related roles/projects/topics, then readiness. Use nested tags such as `#type/question`, `#role/策略PM`, `#topic/Agent评测`, and `#status/review` only when frontmatter or an existing MOC cannot express the facet. Follow names in `00-系统/03-元数据Schema.md`.
 
-For fast lookup, start from a numbered role folder, then filter by destination or topic. Examples: `path:"110-产品-策略PM/04-题库回答"`, `path:"140-运营-用户运营/05-面经录音"`, or `Agent 评测`. Shared content is copied into each relevant role by design. Do not rely on filenames alone.
+For fast lookup, start from a numbered role folder, then filter by destination or topic. Examples: `path:"110-产品-策略PM/04-题库回答"`, `path:"210-运营-用户运营/05-面经录音"`, or `Agent 评测`. Shared content is copied into each relevant role by design. Do not rely on filenames alone.
 
 When adding a role, create a numbered root folder and its `00-岗位总览.md`, then copy the seven standard content sections from an existing role. Keep role pages shallow; do not create extra subfolders unless they represent a stable retrieval need.
 
