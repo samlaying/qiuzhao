@@ -8,15 +8,15 @@ An Obsidian vault serving as a personal interview preparation knowledge base for
 
 ## Vault Structure & Conventions
 
-- **Numbered prefixes** define sections: `00-` (resume), `01-` (methodology), `02-` (AIGC strategy), `03-` (interview), `04-` (product sense), `100+` (per-role prep)
+- **Root entry folders** define navigation: `00-开始这里.md` is the home page, followed by `100-基础资料/`, the role folders `110-` through `170-`, `180-公司专项与转岗/`, and `200-面试材料/`.
+- **Numbered folders** define storage lifecycle: `10-` raw material, `20-` personal facts/projects, `30-` general knowledge, `40-` question answers, `50-` role preparation, `60-` interview events, `70-` training/evaluation, `80-` indexes, `90-` archive.
 - **100+ folders** follow a uniform layout: `能力要求.md` (core competency), optional `公司投递.md` (application tracker)
-- `04-产品Sense/` has sub-structure: `面试题库/` (categorized by topic), `日常练习/` (drills)
-- `02-AIGC策略/` files are numbered (`00-`, `01-`, `10-`, etc.) — the gap marks a logical grouping (core capabilities vs. company-specific prep)
+- Product sense and AI product materials are copied into each role’s `03-通用知识/` folder.
 
 ## Obsidian Bidirectional Links (双链)
 
 Files cross-reference each other with `[[wikilink]]` syntax. Key link patterns:
-- Interview questions → applicable roles: `适用：[[50-岗位准备/51-岗位方向/100-策略PM]]、[[50-岗位准备/51-岗位方向/103-用户运营]]`
+- Interview questions are stored inside each applicable role’s `04-题库回答/` folder.
 - Role folders → interview questions and reference materials
 - Daily practice drills → specific roles or AIGC topics
 
@@ -24,9 +24,7 @@ When creating new files, add bidirectional link annotations so they surface from
 
 ## Templates
 
-Templates live in `04-产品Sense/`:
-- `岗位-模板.md` — scaffold for new role folders
-- `练习-模板-产品分析.md`, `练习-模板-费米估算.md`, `练习-模板-竞品分析.md` — practice exercise formats
+Templates live under `00-系统/` and the relevant knowledge sections. Use the existing practice templates for product analysis, Fermi estimates, and competitor analysis.
 
 When adding a new role, create a `1XX-角色名/` folder and follow the template.
 
