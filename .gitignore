@@ -7,3 +7,19 @@
 
 # macOS
 .DS_Store
+
+# 二进制/大文件：不上传 GitHub（保留本地）
+# PDF 文档
+*.pdf
+*.PDF
+# Office 文档
+*.doc
+*.docx
+*.xls
+*.xlsx
+*.ppt
+*.pptx
+# 压缩包
+*.zip
+*.rar
+*.7z
